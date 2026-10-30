@@ -1,8 +1,8 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-frontend//node_modules
-frontend//.pnp
+frontend/node_modules
+frontend/.pnp
 frontend/.pnp.*
 frontend/.yarn/*
 frontend/!.yarn/patches
@@ -11,11 +11,11 @@ frontend/!.yarn/releases
 frontend/!.yarn/versions
 frontend/
 # testing
-frontend//coverage
+frontend/coverage
 frontend/
 # next.js
-frontend//.next/
-frontend//out/
+frontend/.next/
+frontend/out/
 frontend/
 # production
 frontend/build
